@@ -1,0 +1,73 @@
+
+ phantomjs --web-security=no taobaowebm.js
+ 
+头像
+http://wwc.alicdn.com/avatar/getAvatar.do?userId=1636702192&width=160&height=160&type=sns
+直播间地址  手机端的
+http://h5.m.taobao.com/taolive/video.html?userId=1120709702
+
+如何获取 userId
+
+    第一步，进入淘宝直播首页，右上角点击个人主页
+
+　　第二步，点击达人主页右上角点击分享账号
+
+　　第三步：分享账号到钉钉，用网页打开钉钉的分享，网页链接上有broadcasterId=后面的数字就是用户ID。
+https://tblive.m.taobao.com/wow/tblive/act/host-detail?
+ut_sk=1.VE%2B7YjEB%2BVQDAEVpmiZnB6jx_21380790_1506649936232.DingTalk.10000
+&broadcasterId=1120709702
+&wh_weex=true
+&sourceType=other
+&spm=a2141.8001249.1.1
+&suid=B56B2575-A472-4E95-AAF3-CB915550B811
+&un=7e5c45ab38cea3078a195baaa22d8f6a&share_crt_v=1
+&cpp=1
+&shareurl=true
+&short_name=h.HnNOJl&app=macos_safari
+
+
+ws://acs.m.taobao.com/accs/auth?token=AAAGWc2/tsghWid9GBOq+eGOymyps4gGuN2S9mhB3H4a051i94ZUC3+kG8P/uy1k1/dbGPLZPZ6aILiFgmVDwrYI2jD5mF4=
+
+http://h5api.m.taobao.com/h5/mtop.mediaplatform.live.encryption/1.0/?
+jsv=2.4.0
+&appKey=12574478
+&t=1506656230315
+&sign=c44aa1a8c4b3908ffd26ef0d7fedf0e2
+&api=mtop.mediaplatform.live.encryption&AntiCreep=true
+&v=1.0
+&ecode=0
+&type=jsonp
+&dataType=jsonp
+&callback=mtopjsonp5
+&data=%7B%22appKey%22%3A%22H5_4290%22%2C%22windowId%22%3A%222045283270_131%22%7D
+
+
+ ubuntu安装phantomjs
+标签： pythonubuntuphantomjs
+2017-01-24 01:33 834人阅读 评论(0) 收藏 举报
+ 分类： ubuntu
+版权声明：本文为博主原创文章，未经博主允许不得转载。
+
+有好多方法，第一种可以用官网的方法：http://phantomjs.org/build.html
+
+我用的是：
+
+[python] view plain copy
+sudo apt-get install phantomjs  
+sudo apt-get install nodejs  
+sudo apt-get install nodejs-legacy  
+sudo apt-get install npm  
+sudo npm -g install phantomjs-prebuilt  
+
+
+document.getElementsByClassName('lr-all-item-list f-list-scrollable')[0].children[0].children[1].children[0].children[0].style.backgroundImage
+document.getElementsByClassName('lr-all-item-list f-list-scrollable')[0].children[0].children[1].children[0].children[1].innerText
+
+ubuntu14 apt-get 简单 安装 ffmpeg
+原创 2016年08月27日 22:26:50 681802
+sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next 
+sudo apt-get update 
+sudo apt-get install ffmpeg
+
+
+ffmpeg -i "http://liveng.alicdn.com/mediaplatform/000d9b14-60b2-41cc-9415-06ecb4daedb6.m3u8?auth_key=1510279231-0-0-43a970cec4342ed834aaec7307847918&viewer_id=0" dump1.flv

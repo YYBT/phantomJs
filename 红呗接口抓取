@@ -1,0 +1,185 @@
+查询主播接口  GET ：https://xcx.instarx.cn/search?pf=all&word=装备购
+{
+	"errno": 0,
+	"message": "success",
+	"data": {
+		"list": [{
+			"uid": 1120709702,
+			"nickname": "\u88c5\u5907\u8d2d",
+			"followers": 100889,
+			"avatar": "\/\/gw2.alicdn.com\/tfscom\/tuitui\/TB1az17MXXXXXbgXFXXXXXXXXXX",
+			"index": 249.6,
+			"is_monitor": 0,
+			"fid": 0,
+			"week_index": 246.8,
+			"code": "taobao",
+			"name": "\u6dd8\u5b9d",
+			"icon_small": "http:\/\/img.instarx.cn\/image\/jpg\/pftaobao_logo.jpg"
+		}]
+	}
+}
+以下 都是主播信息页展示的 接口
+https://xcx.instarx.cn/my/base?pf=taobao&uid=1120709702
+{
+	"errno": 0,
+	"message": "success",
+	"data": {
+		"base": {
+			"live_num": 16,
+			"live_day": 14,
+			"live_time": 81,
+			"max_online": 347,
+			"watches_avg": 3262,
+			"watches_avg_hour": 644,
+			"watches_old_avg": 11,
+			"watches_old_avg_hour": 2,
+			"cmt_avg": 897,
+			"cmt_avg_hour": 177,
+			"view_num_avg": 0,
+			"view_num_avg_hour": 0,
+			"cmt_user_avg": 65,
+			"cmt_user_avg_hour": 12,
+			"pay_user_avg": 0,
+			"pay_user_avg_hour": 0,
+			"income_avg": 0,
+			"income_avg_hour": 0,
+			"followers_avg": 80,
+			"followers_avg_hour": 15,
+			"trade_show_avg": 386,
+			"trade_show_avg_hour": 76,
+			"trade_show_uv_avg": 172,
+			"trade_show_uv_avg_hour": 34
+		},
+		"active_days": {
+			"yes": 14,
+			"no": 0
+		},
+		"hours": {
+			"level0": 0,
+			"level1": 0,
+			"level2": 4,
+			"level3": 1,
+			"level4": 11
+		}
+	}
+}
+https://xcx.instarx.cn/my/pfuser?pf=taobao&uid=1120709702&format=json
+{
+	"errno": 0,
+	"message": "success",
+	"data": {
+		"user": {
+			"id": 29555,
+			"uid": 1120709702,
+			"source": "",
+			"followers": 100889,
+			"province": "",
+			"city": "\u9547\u6c5f\u5e02",
+			"avatar": "\/\/gw2.alicdn.com\/tfscom\/tuitui\/TB1az17MXXXXXbgXFXXXXXXXXXX",
+			"astro": "",
+			"verified": "",
+			"vs_realname": "",
+			"nickname": "\u88c5\u5907\u8d2d",
+			"vs_status": 0,
+			"followings": 0,
+			"signature": "\u88c5\u5907\u8d2d\u4e3a\u60a8\u63d0\u4f9b\u6700\u65b0\u6700\u5168\u7684\u6237\u5916\u8fd0\u52a8\u88c5\u5907\u8d44\u6599\uff0c\u60a8\u7684\u8fd0\u52a8\u5065\u5eb7\u7b2c\u4e00\u7ad9\u3002",
+			"feeds": 41,
+			"gender": "",
+			"level": 0,
+			"praises": 0,
+			"vs_school": "",
+			"updated_at": "2017-09-29 08:24:09",
+			"created_at": "2017-08-21 14:08:51",
+			"income": 0,
+			"hotsnum": 24005,
+			"accountdes": "\u7279\u7279\u4f20\u5a92\u8fbe\u4eba",
+			"live_time": 714423,
+			"total_gift": 0,
+			"fid": 0,
+			"is_bind": 0,
+			"is_vip": 0,
+			"is_daren": 1,
+			"is_pfv": 1,
+			"shop_id": 0,
+			"shop_fans_num": 0,
+			"index": 249.6,
+			"tags": "",
+			"show_tags": "\u578b\u7537\u5065\u8eab\u623f#\u5bb6\u6709\u597d\u5148\u751f",
+			"goods_total": 124,
+			"week_index": 246.8,
+			"live_total": 12,
+			"wangwanglink": "",
+			"real_fid": 0,
+			"grows": 4,
+			"is_partner": 0
+		},
+		"pf": {
+			"id": 2,
+			"name": "\u6dd8\u5b9d",
+			"code": "taobao",
+			"icon_small": "http:\/\/img.instarx.cn\/image\/jpg\/pftaobao_logo.jpg",
+			"icon_large": "http:\/\/img.instarx.cn\/image\/jpg\/pftaobao_logo.jpg",
+			"created_at": "2016-10-23 22:49:15",
+			"updated_at": "-0001-11-30 00:00:00"
+		},
+		"hbindex_day": "249.6",
+		"hbindex_week": "246.8",
+		"rank": 0
+	}
+}
+https://xcx.instarx.cn/my/pfuserstat?pf=taobao&uid=1120709702
+{
+	"errno": 0,
+	"message": "success",
+	"data": {
+		"update_time": "2017-09-28 21:26:50",
+		"followers": {
+			"2017-09-15": 97489,
+			"2017-09-16": 97684,
+			"2017-09-17": 97849,
+			"2017-09-18": 98039,
+			"2017-09-19": 98217,
+			"2017-09-20": 98699,
+			"2017-09-21": 98866,
+			"2017-09-22": 99077,
+			"2017-09-23": 99263,
+			"2017-09-24": 99474,
+			"2017-09-25": 99628,
+			"2017-09-26": 99798,
+			"2017-09-27": 100745,
+			"2017-09-28": 100889
+		},
+		"income": {
+			"2017-09-15": 0,
+			"2017-09-16": 0,
+			"2017-09-17": 0,
+			"2017-09-18": 0,
+			"2017-09-19": 0,
+			"2017-09-20": 0,
+			"2017-09-21": 0,
+			"2017-09-22": 0,
+			"2017-09-23": 0,
+			"2017-09-24": 0,
+			"2017-09-25": 0,
+			"2017-09-26": 0,
+			"2017-09-27": 0,
+			"2017-09-28": 0
+		},
+		"index": {
+			"2017-09-15": 270.1,
+			"2017-09-16": 263,
+			"2017-09-17": 250.1,
+			"2017-09-18": 274.1,
+			"2017-09-19": 223.1,
+			"2017-09-20": 305.8,
+			"2017-09-21": 223.4,
+			"2017-09-22": 225.4,
+			"2017-09-23": 227.8,
+			"2017-09-24": 247.7,
+			"2017-09-25": 219.9,
+			"2017-09-26": 226.4,
+			"2017-09-27": 338.1,
+			"2017-09-28": 249.65
+		}
+	}
+}
